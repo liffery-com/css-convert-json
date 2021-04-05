@@ -1,5 +1,5 @@
 
-# css-to-json Typescript
+# css-convert-json Typescript
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -19,17 +19,14 @@
 
 ## About
 
-css-to-json Converter for JavaScript  
-Converts CSS to JSON and back.
-
-Released under the MIT license.
+Can convert CSS to JSON and back to CSS.
 
 ## Installation
 
 ### NPM
 
 ```bash
-npm install css-to-json
+npm install css-convert-json
 ```
 
 ## Usage
@@ -38,7 +35,7 @@ npm install css-to-json
 
 ```typescript
 
-import { toCSS, toJSON } from 'css-to-json';
+import { toCSS, toJSON } from 'css-convert-json';
 
 // To JSON
 const json = toJSON(cssString);
