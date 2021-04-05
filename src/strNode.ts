@@ -1,5 +1,5 @@
 import { toCSS } from './toCSS';
-import { JSONNode } from './toJSON';
+import { JSONNode } from './index';
 
 export const strNode = function (
   name: string,

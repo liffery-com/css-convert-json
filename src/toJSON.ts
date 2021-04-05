@@ -1,5 +1,6 @@
 import { altX, commentX, lineAttrX } from './regex';
 import { isEmpty } from './isEmpty';
+import { JSONNode } from './index';
 
 const capComment = 1;
 const capSelector = 2;
@@ -25,22 +26,6 @@ const defaultArgs = {
   stripComments: false,
   split: false,
 };
-
-export interface CssAttributes {
-  [attribute: string]: string
-}
-
-export interface Children {
-  [attribute: string]: {
-    children: Children,
-    attributes: CssAttributes
-  }
-}
-
-export interface JSONNode {
-  children: Children,
-  attributes: CssAttributes
-}
 
 export const toJSON = function (
   cssString: string,

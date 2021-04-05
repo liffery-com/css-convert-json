@@ -1,4 +1,4 @@
-import { JSONNode } from './toJSON';
+import { JSONNode } from './index';
 /**
  * @param node
  *            A JSON node.

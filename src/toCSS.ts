@@ -1,6 +1,6 @@
 import { strAttr } from './strAttr';
 import { strNode } from './strNode';
-import { JSONNode } from './toJSON';
+import { JSONNode } from './index';
 
 /**
  * @param node
