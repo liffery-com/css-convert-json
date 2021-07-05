@@ -1,6 +1,6 @@
 {
   "name": "css-convert-json",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Converts CSS to JSON and back.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,9 +31,9 @@
     "name": "John Carmichael"
   },
   "bugs": {
-    "url": "https://github.com/johndcarmichael/css-convert-json/issues"
+    "url": "https://github.com/liffery-com/css-convert-json/issues"
   },
-  "homepage": "https://github.com/johndcarmichael/css-convert-json",
+  "homepage": "https://github.com/liffery-com/css-convert-json",
   "keywords": [
     "json",
     "css",
@@ -41,6 +41,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/johndcarmichael/css-convert-json.git"
+    "url": "https://github.com/liffery-com/css-convert-json.git"
   }
 }

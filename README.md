@@ -7,10 +7,8 @@
 
 - [About](#about)
 - [Installation](#installation)
-  - [NPM](#npm)
 - [Usage](#usage)
   - [JavaScript / Typescript](#javascript--typescript)
-  - [npm run / CLI](#npm-run--cli)
 - [Sample](#sample)
   - [JSON](#json)
   - [CSS](#css)
@@ -19,14 +17,17 @@
 
 ## About
 
-Can convert CSS to JSON and back to CSS.
+Put simply... this tool will convert CSS to JSON and/or JSON to CSS.
+
+This package allows for simple programmatic changes to CSS via editing JSON and writing back to CSS when required.
+
+See the examples below for the JSON structure of the CSS.
+
 
 ## Installation
 
-### NPM
-
 ```bash
-npm install css-convert-json
+npm i css-convert-json
 ```
 
 ## Usage
